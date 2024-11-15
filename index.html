@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+
+    <!-- *Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- *Font Awesome CSS -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- *Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <header class="p-3 bg-primary text-center text-white">
+        Random Quote Generator
+    </header>
+
+    <!-- *Card Section -->
+    <section class="container my-5 flex-grow-1">
+        <div class="card p-4 shadow rounded-4">
+            <p class="lead text-primary text-center" style="font-weight: 800;">
+                Press the button below to receive a random quote!
+            </p>
+            <div class="d-flex justify-content-center">
+                <button type="button" class="btn btn-primary rounded-pill px-5 py-3 custom-button" id="generate">
+                    New Quote
+                </button>
+            </div>
+            <p class="lead text-primary quote mb-3 mt-4" id="quote"></p>
+            <span class="author d-block text-center" id="author"></span>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center p-3 bg-dark text-white mt-auto">
+        © 2024 Golden Boy. All rights reserved.
+    </footer>
+
+    <!-- *JavaScript Files -->
+    <script src="js/index.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
